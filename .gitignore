@@ -4,6 +4,8 @@
 /storage/*.key
 /vendor
 .env
+.env.dusk.local
+.env.testing
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -11,14 +13,3 @@ npm-debug.log
 yarn-error.log
 /storage/texts/*
 !/storage/texts/.gitkeep
-
-
-.env.dusk.local
-.env.testing
-app/Events/AccessDetection.php
-app/Listeners/MakeTextListener.php
-app/Http/Controllers/SampleController.php
-app/Observers/FrameworkObserver.php
-app/Scopes/CategoryScope.php
-database/migrations/2019_08_11_011930_create_frameworks_table.php
-database/seeds/FrameworksTableSeeder.php
